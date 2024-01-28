@@ -80,6 +80,8 @@ $table_prefix = 'housemag_wp_';
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
+define('JWT_AUTH_SECRET_KEY', 'segredodahousem4g@1!');
+define('JWT_AUTH_CORS_ENABLE', true);
 
 /* Add any custom values between this line and the "stop editing" line. */
 
