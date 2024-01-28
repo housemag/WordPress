@@ -1,0 +1,104 @@
+.viral-pro-welcome-wrap {
+    max-width: 1000px;
+    margin-top: 25px;
+}
+
+.viral-pro-welcome-content {
+    width: 65%;
+    float: left;
+}
+
+.viral-pro-welcome-sidebar {
+    width: 32%;
+    float: right;
+}
+
+.viral-pro-welcome-content h3 {
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.viral-pro-welcome-intro {
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+ul.viral-pro-quick-links {
+    margin: 20px 0 0;
+}
+
+.viral-pro-quick-links li {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.viral-pro-quick-links li a {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.viral-pro-welcome-customizer-links {
+    border: 1px solid #eee;
+    background: #fff;
+}
+
+.viral-pro-welcome-customizer-links h4 {
+    padding: 15px 30px;
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.4;
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+.viral-pro-welcome-customizer-links ul li {
+    padding: 14px 30px;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.viral-pro-welcome-customizer-links ul li:nth-child(even) {
+    background-color: #fbfbfb;
+}
+
+.viral-pro-welcome-customizer-links ul {
+    padding: 0;
+    margin: 0;
+}
+
+.viral-pro-welcome-customizer-links ul li a {
+    text-decoration: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.viral-pro-support-box {
+    border: 1px solid #eee;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.viral-pro-support-box h5 {
+    padding: 15px;
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.4;
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+.viral-pro-support-box h5 .dashicons {
+    margin-right: 6px;
+}
+
+.viral-pro-support-box .viral-pro-support-content {
+    padding: 15px;
+    margin: 0;
+}
+
+.viral-pro-support-box p {
+    margin: 0 0 15px;
+}

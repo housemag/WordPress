@@ -1,0 +1,155 @@
+.ht-post-carousel .ht-post-slide {
+    position: relative;
+}
+
+.vl-ticker.style1 .owl-carousel {	
+    padding-right: 0;	
+}
+
+.vl-fwcarousel-block.style1 .vl-fwcarousel-thumb {
+    margin-bottom: 0;
+}
+
+.vl-fwcarousel-block.style1 .vl-fwcarousel-item .vl-primary-cat-block{
+    margin-bottom: 10px;
+}
+
+.vl-carousel-block .vl-carousel-item{
+    position: relative;
+}
+.vl-carousel-block .vl-carousel-item .vl-post-content.vl-gradient-overlay{
+    bottom: -20px;
+}
+
+.vl-carousel-block.style3 .vl-carousel-item:nth-child(even) .vl-post-content.vl-gradient-overlay {
+    bottom: auto;
+    top: 0;
+    background: -moz-linear-gradient(bottom,rgba(0,0,0,0) 20%,rgba(0,0,0,.9) 100%);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(20%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,.9)));
+    background: -webkit-linear-gradient(bottom,rgba(0,0,0,0) 20%,rgba(0,0,0,.9) 100%);
+    background: -o-linear-gradient(bottom,rgba(0,0,0,0) 20%,rgba(0,0,0,.9) 100%);
+    background: -ms-linear-gradient(bottom,rgba(0,0,0,0) 20%,rgba(0,0,0,.9) 100%);
+    background: linear-gradient(to top,rgba(0,0,0,0) 20%,rgba(0,0,0,.9) 100%);
+}
+
+.vl-carousel-block.style3 .owl-item:nth-child(even) .vl-carousel-heading,
+.vl-carousel-block.style3 .owl-item:nth-child(even) .vl-carousel-thumb {	
+    order: 1;	
+}
+
+.vl-slider-block.style1 [aria-hidden='false'] .vl-title-wrap {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0);
+}
+
+.vl-slider-block.style2 [aria-hidden='false'] .vl-title-wrap:before {
+    opacity: 1;
+    top: -40px;
+}
+.vl-slider-block.style2 [aria-hidden='false'] .vl-title-wrap:after {
+    opacity: 1;
+    bottom: -40px;
+}
+
+.vl-slider-block.style3 [aria-hidden='false'] .vl-title-wrap {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0);
+}
+
+.tnp-widget-minimal .tnp-form input.tnp-submit {
+    width: auto;
+    padding: 10px 30px;
+}
+.wpmi-list,
+.wpmi-list li.wpmi-item {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+ul#ht-responsive-menu.active {
+    display: block;
+}
+/* AMP News Ticker */
+.vl-header-ticker-carousel, 
+.vl-ticker .owl-carousel {
+    overflow: hidden;
+}
+.vl-header-ticker-carousel .owl-carousel a, 
+.vl-ticker .owl-carousel h3.vl-post-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-shrink: 0;
+    width: 100%;
+    line-height: 32px;
+    text-align: center;
+    margin: 0;
+}
+.vl-header-ticker-carousel .owl-carousel, .vl-ticker .owl-carousel {
+    display: flex;
+}
+@keyframes vpticker {
+    0% { transform: translate3d(100%, 0, 0); }
+    100% { transform: translate3d(-400%, 0, 0); }
+}
+.vl-header-ticker-carousel .owl-carousel a, 
+.vl-ticker .owl-carousel h3.vl-post-title { 
+    animation: vpticker linear 30s infinite; 
+}
+.vl-header-ticker-carousel .owl-carousel:hover a, 
+.vl-ticker .owl-carousel:hover h3.vl-post-title { 
+    animation-play-state: paused; 
+}
+/* Post Tab Widget */
+amp-selector[role=tablist].ht-post-tab {
+    display: flex;
+    flex-wrap: wrap;
+}
+amp-selector[role=tablist].ht-post-tab [role=tabpanel] {
+    display: none;
+    width: 100%;
+    order: 1;
+}
+amp-selector[role=tablist] [role=tab][selected] + [role=tabpanel] {
+    display: block;
+}
+amp-selector[role=tablist].ht-post-tab [role=tab][selected] {
+    background: #0078af;
+    color: #FFF;
+}
+amp-selector[role=tablist].ht-post-tab [role=tab] {
+    flex-grow: 1;
+    text-align: center;
+    background: #222;
+    color: #FFF;
+    font-size: 0.9rem;
+    text-align: center;
+    flex-grow: 1;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+amp-selector [option][selected] {
+    cursor: auto;
+    outline: 1px solid rgba(0,0,0,0.7);
+}
+amp-selector [option] {
+    cursor: pointer;
+}
+/* Accordian Widget */
+.ht-accordion .ht-accordion-content{
+    display: none;
+}
+.ht-accordion .ht-accordion-box.open .ht-accordion-content{
+    display: block;
+}
+.ht-enable-sticky-sidebar .secondary.widget-area,
+.ht-sticky-sidebar #secondary{
+    position: sticky;
+    top: 0;
+    height: 100%;
+}
+.viral-pro-related-post-wrap .vl-post-content.vl-gradient-overlay {
+    margin-bottom: -20px;
+}

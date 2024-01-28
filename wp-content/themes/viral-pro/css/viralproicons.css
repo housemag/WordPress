@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'ViralProIcons';
+    src: url('fonts/viralproicons/ViralProIcons.woff') format('woff'),
+        url('fonts/viralproicons/ViralProIcons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="your-class-prefix"] {
+*/
+.social_rss,
+.social_instagram,
+.social_facebook,
+.social_twitter,
+.social_linkedin,
+.social_pinterest,
+.social_youtube,
+.social_flickr,
+.social_skype,
+.social_vimeo,
+.social_vimeo_circle,
+.social_youtube_circle,
+.social_rss_circle,
+.social_instagram_circle,
+.social_facebook_circle,
+.social_twitter_circle,
+.social_linkedin_circle,
+.social_pinterest_circle,
+.icofont-phone,
+.ei.arrow_right,
+.icon_lightbulb_alt,
+.icon_pin,
+.icon_phone,
+.mdi.mdi-open-in-new,
+.mdi.mdi-calendar,
+.mdi.mdi-cart,
+.mdi.mdi-comment,
+.mdi.mdi-bookmark,
+.mdi.mdi-folder,
+.mdi.mdi-account,
+.mdi.mdi-reddit,
+.mdi.mdi-book-open,
+.mdi.mdi-eye-outline,
+.mdi.mdi-comment-outline,
+.mdi.mdi-clock-time-four-outline,
+.mdi.mdi-skip-next,
+.mdi.mdi-skip-previous,
+.mdi.mdi-play,
+.icon_house,
+.icon_target,
+.icon_mail,
+.icofont-thin-down,
+.icofont-thin-left,
+.icofont-thin-right,
+.icofont-thin-up,
+.icofont-globe-alt,
+.icofont-search-1,
+.icofont-search,
+.icofont-facebook,
+.icofont-instagram,
+.icofont-twitter,
+.icofont-youtube,
+.icofont-trash,
+.icofont-address-book,
+.icofont-clock-time,
+.icofont-close-line-squared,
+.icofont-envelope,
+.icofont-home,
+.icofont-pinterest {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'ViralProIcons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+}
+
+.icon_target:before {
+    content: "\e910";
+}
+.ei.arrow_right:before {
+    content: "\e900";
+}
+.mdi.mdi-reddit:before {
+    content: "\e901";
+}
+.mdi.mdi-open-in-new:before {
+    content: "\e902";
+}
+.mdi.mdi-calendar:before {
+    content: "\e903";
+}
+.mdi.mdi-cart:before {
+    content: "\e904";
+}
+.mdi.mdi-comment:before {
+    content: "\e905";
+}
+.mdi.mdi-bookmark:before {
+    content: "\e906";
+}
+.mdi.mdi-folder:before {
+    content: "\e907";
+}
+.mdi.mdi-account:before {
+    content: "\e908";
+}
+.mdi.mdi-book-open:before {
+    content: "\e909";
+}
+.mdi.mdi-eye-outline:before {
+    content: "\e90a";
+}
+.mdi.mdi-comment-outline:before {
+    content: "\e90b";
+}
+.mdi.mdi-clock-time-four-outline:before {
+    content: "\e90c";
+}
+.mdi.mdi-skip-next:before {
+    content: "\e90d";
+}
+.mdi.mdi-skip-previous:before {
+    content: "\e90e";
+}
+.mdi.mdi-play:before {
+    content: "\e90f";
+}
+.arrow_carrot-right:before {
+    content: "\35";
+}
+.icon_lightbulb_alt:before {
+    content: "\e007";
+}
+.icon_house:before {
+    content: "\e074";
+}
+.icon_mail:before {
+    content: "\e076";
+}
+.icon_pin:before {
+    content: "\e081";
+}
+.icon_phone:before {
+    content: "\e090";
+}
+.social_facebook:before {
+    content: "\e093";
+}
+.social_twitter:before {
+    content: "\e094";
+}
+.social_pinterest:before {
+    content: "\e095";
+}
+.social_tumblr:before {
+    content: "\e097";
+}
+.social_instagram:before {
+    content: "\e09a";
+}
+.social_vimeo:before {
+    content: "\e09c";
+}
+.social_linkedin:before {
+    content: "\e09d";
+}
+.social_rss:before {
+    content: "\e09e";
+}
+.social_skype:before {
+    content: "\e0a2";
+}
+.social_youtube:before {
+    content: "\e0a3";
+}
+.social_flickr:before {
+    content: "\e0a6";
+}
+.social_facebook_circle:before {
+    content: "\e0aa";
+}
+.social_twitter_circle:before {
+    content: "\e0ab";
+}
+.social_pinterest_circle:before {
+    content: "\e0ac";
+}
+.social_tumblr_circle:before {
+    content: "\e0ae";
+}
+.social_instagram_circle:before {
+    content: "\e0b1";
+}
+.social_vimeo_circle:before {
+    content: "\e0b3";
+}
+.social_linkedin_circle:before {
+    content: "\e0b4";
+}
+.social_rss_circle:before {
+    content: "\e0b5";
+}
+.social_youtube_circle:before {
+    content: "\e0ba";
+}
+.icofont-thin-down:before {
+    content: "\eac8";
+}
+.icofont-thin-left:before {
+    content: "\eac9";
+}
+.icofont-thin-right:before {
+    content: "\eaca";
+}
+.thin-up:before {
+    content: "\eacb";
+}
+.icofont-globe-alt:before {
+    content: "\eada";
+}
+.icofont-search-1:before {
+    content: "\ed11";
+}
+.icofont-search:before {
+    content: "\ed1b";
+}
+.icofont-facebook:before {
+    content: "\ed37";
+}
+.icofont-instagram:before {
+    content: "\ed46";
+}
+.icofont-pinterest:before {
+    content: "\ed5d";
+}
+.icofont-twitter:before {
+    content: "\ed7a";
+}
+.icofont-youtube:before {
+    content: "\ed8b";
+}
+.icofont-trash:before {
+    content: "\ee09";
+}
+.icofont-address-book:before {
+    content: "\eea1";
+}
+.icofont-clock-time:before {
+    content: "\eedc";
+}
+.icofont-close-line-squared:before {
+    content: "\eee0";
+}
+.icofont-envelope:before {
+    content: "\ef14";
+}
+.icofont-home:before {
+    content: "\ef47";
+}
+.icofont-phone:before {
+    content: "\efbb";
+}

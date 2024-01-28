@@ -1,0 +1,20 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_viral-pro">
+            <key name="viral_pro_th_text" />
+            <key name="viral_pro_th_ticker_title" />
+            <key name="viral_pro_hb_text" />
+            <key name="viral_pro_hb_link" />
+            <key name="viral_pro_archive_readmore" />
+            <key name="viral_pro_footer_copyright" />
+            <key name="viral_pro_gdpr_notice" />
+            <key name="viral_pro_gdpr_confirm_button_text" />
+            <key name="viral_pro_gdpr_button_text" />
+            <key name="viral_pro_gdpr_button_link" />
+            <key name="viral_pro_maintenance_title" />
+            <key name="viral_pro_maintenance_text" />
+            <key name="viral_pro_ticker_title" />
+            <key name="viral_pro_single_related_post_title" />
+        </key>
+    </admin-texts>
+</wpml-config>

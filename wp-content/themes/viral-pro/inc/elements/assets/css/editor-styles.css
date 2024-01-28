@@ -1,0 +1,215 @@
+.vp-elementor-icon {
+    background-repeat: no-repeat;
+    width: 60px !important;
+    height: 50px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/layouts.png) !important;
+}
+
+.vp-news-module-one {
+    background-position: -20px -15px;
+}
+
+.vp-news-module-two {
+    background-position: -120px -15px;
+}
+
+.vp-news-module-three {
+    background-position: -20px -95px;
+}
+
+.vp-news-module-four {
+    background-position: -120px -95px;
+}
+
+.vp-news-module-five {
+    background-position: -20px -175px;
+}
+
+.vp-news-module-six {
+    background-position: -120px -175px;
+}
+
+.vp-news-module-seven {
+    background-position: -20px -255px;
+}
+
+.vp-news-module-eight {
+    background-position: -120px -255px;
+}
+
+.vp-news-module-nine {
+    background-position: -20px -335px;
+}
+
+.vp-news-module-ten {
+    background-position: -120px -335px;
+}
+
+.vp-news-module-eleven {
+    background-position: -20px -415px;
+}
+
+.vp-news-module-twelve {
+    background-position: -120px -415px;
+}
+
+.vp-news-module-thirteen {
+    background-position: -20px -495px;
+}
+
+.vp-news-module-fourteen {
+    background-position: -120px -495px;
+}
+
+.vp-news-module-fifteen {
+    background-position: -20px -575px;
+}
+
+.vp-news-module-sixteen {
+    background-position: -120px -575px;
+}
+
+.vp-news-module-seventeen {
+    background-position: -20px -655px;
+}
+
+.vp-news-module-eighteen {
+    background-position: -120px -655px;
+}
+
+.vp-news-module-nineteen {
+    background-position: -20px -735px;
+}
+
+.vp-news-module-twenty {
+    background-position: -120px -735px;
+}
+
+.vp-news-module-twentyone {
+    background-position: -20px -815px;
+}
+
+.vp-news-module-twentytwo {
+    background-position: -120px -815px;
+}
+
+.vp-news-module-twentythree{
+    background-position: -20px -895px;
+}
+
+.vp-news-module-twentyfour {
+    background-position: -120px -895px;
+}
+
+.vp-tile-module-one{
+    background-position: -20px -975px;
+}
+
+.vp-tile-module-two{
+    background-position: -120px -975px;
+}
+
+.vp-tile-module-three{
+    background-position: -20px -1055px;
+}
+
+.vp-tile-module-four{
+    background-position: -120px -1055px;
+}
+
+.vp-tile-module-five{
+    background-position: -20px -1135px;
+}
+
+.vp-tile-module-six{
+    background-position: -120px -1135px;
+}
+
+.vp-tile-module-seven{
+    background-position: -20px -1215px;
+}
+
+.vp-tile-module-eight{
+    background-position: -120px -1215px;
+}
+
+.vp-carousel-module-one{
+    background-position: -20px -1295px;
+}
+
+.vp-carousel-module-two{
+    background-position: -120px -1295px;
+}
+
+.vp-carousel-module-three{
+    background-position: -20px -1375px;
+}
+
+.vp-carousel-module-four{
+    background-position: -120px -1375px;
+}
+
+.vp-carousel-module-five{
+    background-position: -20px -1455px;
+}
+
+.vp-slider-module-one{
+    background-position: -20px -1535px;
+}
+
+.vp-slider-module-two{
+    background-position: -120px -1535px;
+}
+
+.vp-slider-module-three{
+    background-position: -20px -1615px;
+}
+
+.vp-slider-module-four{
+    background-position: -120px -1615px;
+}
+
+.vp-featured-module{
+    background-position: -20px -1695px;
+}
+
+.vp-video-module{
+    background-position: -120px -1695px;
+}
+
+.vp-ticker-module{
+    background-position: -20px -1765px;
+}
+
+.vp-title-module{
+    background-position: -120px -1770px;
+}
+
+.vp-single-news-one{
+    background-position: -20px -1850px;
+}
+
+.vp-single-news-two{
+    background-position: -120px -1855px;
+}
+
+.vp-elementor-pro-no #elementor-panel-category-pro-elements,
+.vp-elementor-pro-no #elementor-panel-category-theme-elements,
+.vp-elementor-pro-no #elementor-panel-category-woocommerce-elements,
+.vp-elementor-pro-no #elementor-panel-get-pro-elements,
+.vp-elementor-pro-no .elementor-control-dynamic-switcher,
+.vp-elementor-pro-no .elementor-control-section_custom_css_pro,
+.vp-elementor-pro-no .elementor-control-section_custom_attributes_pro,
+.vp-elementor-pro-no [data-tab="global"],
+.vp-elementor-pro-no .elementor-context-menu-list__group.elementor-context-menu-list__group-save,
+.vp-elementor-pro-no #elementor-icons-manager__upload{
+    display: none !important;
+}
+
+/* Ajax Select */
+.elementor-control-type-viral-pro-ajax-select .select2-container.select2-container--default .select2-selection--multiple {
+    padding: 4px;
+}

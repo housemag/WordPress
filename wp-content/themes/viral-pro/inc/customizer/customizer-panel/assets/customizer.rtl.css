@@ -1,0 +1,131 @@
+/*Home Sections Icons*/
+.customize-pane-parent .control-section .accordion-section-title:before,
+#sub-accordion-panel-viral_pro_front_page_panel .control-section .accordion-section-title:before {
+    font-family: dashicons;
+    content: "\f103";
+    font-size: 16px;
+    margin-left: 2px;
+    vertical-align: middle;
+    font-weight: normal;
+    display: inline-block;
+}
+
+#accordion-section-static_front_page .accordion-section-title:before {
+    content: "\f319";
+}
+
+#accordion-panel-viral_pro_general_settings_panel .accordion-section-title:before {
+    content: "\f111";
+}
+
+#accordion-panel-viral_pro_typography_panel .accordion-section-title:before {
+    content: "\f464";
+}
+
+#accordion-section-colors .accordion-section-title:before {
+    content: "\f309";
+}
+
+#accordion-panel-viral_pro_header_settings_panel .accordion-section-title:before {
+    content: "\f212";
+}
+
+#accordion-panel-viral_pro_front_page_panel .accordion-section-title:before {
+    content: "\f102";
+}
+
+#accordion-section-viral_pro_frontpage_settings .accordion-section-title:before {
+    content: "\f102";
+}
+
+#accordion-section-viral_pro_blog_options_section .accordion-section-title:before {
+    content: "\f119";
+}
+
+#accordion-section-viral_pro_footer_section .accordion-section-title:before {
+    content: "\f212";
+}
+
+#accordion-panel-nav_menus .accordion-section-title:before {
+    content: "\f333";
+}
+
+#accordion-panel-widgets .accordion-section-title:before {
+    content: "\f116";
+}
+
+#accordion-section-viral_pro_social_section .accordion-section-title:before {
+    content: "\f237";
+}
+
+#accordion-section-custom_css .accordion-section-title:before {
+    content: "\f499";
+}
+
+#accordion-section-viral_pro_maintenance_section .accordion-section-title:before {
+    content: "\f321";
+}
+
+#accordion-section-viral_pro_gdpr_section .accordion-section-title:before {
+    content: "\f332";
+}
+
+#sub-accordion-panel-viral_pro_front_page_panel .control-section .accordion-section-title:before {
+    content: "\f545";
+    color: #AAA;
+}
+
+#accordion-section-viral_pro_layout_options_section .accordion-section-title:before {
+    content: "\f135";
+}
+
+#customize-control-viral_pro_enable_frontpage .viral-pro-toggle-container {
+    border: 1px solid #CCC;
+    padding: 10px;
+    background: #FFF;
+}
+
+#sub-accordion-panel-viral_pro_front_page_panel .customize-info .customize-panel-description {
+    display: block !important;
+}
+
+.viral-pro-drag-spinner {
+    display: none;
+    float: left;
+}
+
+.ht--multi-category-list,
+.customize-control-ht--checkbox-multiple > ul{
+    max-height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #EEE;
+    padding: 10px;
+}
+
+.customize-control-ht--checkbox-multiple > ul{
+    border: 1px solid #DDD;
+}
+
+.viral-pro-implink {
+    background: #0073aa;
+    padding: 5px 10px;
+    color: #FFF !important;
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    line-height: 1.2;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.viral-pro-implink:hover {
+    background: #000;
+}
+
+#customize-control-viral_pro_enable_frontpage .ht--toggle-container{
+    border: 1px solid #CCC;
+    padding: 10px;
+    background: #FFF;
+}
